@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @font-face {
 	font-family: "Akzidenz-Grotesk";
-	src: local("Akzidenz-Grotesk BQ Bold Condensed"), local("Akzidenz-Grotesk-BQ-Bold-Condensed"), url("PrimeOne-site/fonts/AkzidenzGroteskBQ-BdCnd.woff2") format("woff2"), url("PrimeOne-site/fonts/AkzidenzGroteskBQ-BdCnd.woff") format("woff"), url("PrimeOne-site/fonts/AkzidenzGroteskBQ-BdCnd.ttf") format("truetype");
+	src: local("Akzidenz-Grotesk BQ Bold Condensed"), local("Akzidenz-Grotesk-BQ-Bold-Condensed"), url("../fonts/AkzidenzGroteskBQ-BdCnd.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBQ-BdCnd.woff") format("woff"), url("../fonts/AkzidenzGroteskBQ-BdCnd.ttf") format("truetype");
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Bebas";
 	src: url("PrimeOne-site/fonts/Bebas-Regular.eot");
-	src: url("PrimeOne-site/fonts/Bebas-Regular.eot?#iefix") format("embedded-opentype"), url("PrimeOne-site/fonts/Bebas-Regular.woff2") format("woff2"), url("PrimeOne-site/fonts/Bebas-Regular.woff") format("woff"), url("PrimeOne-site/fonts/Bebas-Regular.ttf") format("truetype"), url("PrimeOne-site/fonts/Bebas-Regular.svg#Bebas-Regular") format("svg");
+	src: url("PrimeOne-site/fonts/Bebas-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Bebas-Regular.woff2") format("woff2"), url("../fonts/Bebas-Regular.woff") format("woff"), url("../fonts/Bebas-Regular.ttf") format("truetype"), url("../fonts/Bebas-Regular.svg#Bebas-Regular") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1585,13 +1585,13 @@ header {
 	padding: 0 0 0 35px;
 }
 .contacts-body__item--1 {
-	background: url("/../img/contacts/01.svg") left no-repeat;
+    	background: url(../img/contacts/01.svg) left no-repeat;
 }
 .contacts-body__item--2 {
-	background: url("/../img/contacts/03.svg") left no-repeat;
+	background: url("../img/contacts/03.svg") left no-repeat;
 }
 .contacts-body__item--3 {
-	background: url("/../img/contacts/02.svg") left no-repeat;
+	background: url("../img/contacts/02.svg") left no-repeat;
 }
 
 .contacts-social {
